@@ -3,6 +3,6 @@ streamlit-webrtc==0.42.0
 tensorflow==2.9.1
 numpy==1.22.0
 pandas==1.4.3
-opencv==4.5.5
+opencv
 opencv-python==4.6.0.66
 protobuf==3.19.4
