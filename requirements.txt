@@ -1,4 +1,6 @@
-streamlit
-tensorflow
-numpy
-pandas
+streamlit==1.11.1
+streamlit-webrtc==0.42.0
+tensorflow==2.9.1
+numpy==1.22.0
+pandas==1.4.3
+opencv-python==4.6.0.66
