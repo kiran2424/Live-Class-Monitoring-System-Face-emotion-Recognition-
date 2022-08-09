@@ -7,5 +7,4 @@ pandas==1.4.3
 opencv==4.5.5
 opencv-python==4.6.0.66
 opencv-python-headless==4.6.0.66
-openssl==1.1.1q
 protobuf==3.19.4
