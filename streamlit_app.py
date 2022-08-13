@@ -75,7 +75,6 @@ def main():
         1. Click the dropdown list in the top left corner and select Live Face Emotion Detection.
         2. This takes you to a page which will tell if it recognizes your emotions.
                  """)
-if __name__ == "__main__":
 
     # Live Face Emotion Detection.
     elif choice == "Live Face Emotion Detection":
@@ -107,5 +106,6 @@ if __name__ == "__main__":
     else:
         pass
 
-
+if __name__ == "__main__":
+import os
     main()
