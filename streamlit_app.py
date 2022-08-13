@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import cv2
 import tensorflow as tf
@@ -107,5 +108,4 @@ def main():
         pass
 
 if __name__ == "__main__":
-import os
     main()
