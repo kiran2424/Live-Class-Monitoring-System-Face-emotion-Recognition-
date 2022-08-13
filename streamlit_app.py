@@ -70,7 +70,7 @@ def main():
 
         st.markdown(html_temp_home1, unsafe_allow_html=True)
         st.write("""
-	You don’t always need words, often your face says it all! Facial expression is a picture of one’s mind. 
+	* You don’t always need words, often your face says it all! Facial expression is a picture of one’s mind. 
 	* Sometimes we laugh, sometimes we cry, sometimes we get angry, and sometimes get scared....
 	* From unlocking our phones to accessing personal documents on our computers, facial recognition technology has become a part in our day-to-day lives. 
 	* But ever wondered; whether the computer that we give all this attention to is even capable of recognizing these emotions?
