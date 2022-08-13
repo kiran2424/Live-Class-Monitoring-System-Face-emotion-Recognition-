@@ -87,7 +87,7 @@ def main():
         Welcome to the other side of the SCREEN!!!
         * Get ready with all the emotions you can express. 
         ''')
-        st.write("1. Click Start to open your camera and give permission for prediction")
+        st.write("1. Click Start to open your camera and give permission by clicking 'Allow' for prediction")
         st.write("2. This will predict your emotion.")
         st.write("3. When you done, click stop to end.")
         webrtc_streamer(key="example", video_processor_factory=VideoTransformer, rtc_configuration=RTC_CONFIGURATION,
@@ -95,21 +95,6 @@ def main():
             "video": True,
             "audio": True}
         )
-
-    # About.
-    elif choice == "About":
-        st.subheader("About this app")
-        html_temp_about1= """<div style="background-color:#36454F;padding:30px">
-                                    <h4 style="color:white;">
-                                     This app predicts facial emotion using a Convolutional neural network.
-                                     Which is built using Keras and Tensorflow libraries.
-                                     Face detection is achived through openCV.
-                                    </h4>
-                                    </div>
-                                    </br>
-                                    """
-        st.markdown(html_temp_about1, unsafe_allow_html=True)
-
 
     else:
         pass
