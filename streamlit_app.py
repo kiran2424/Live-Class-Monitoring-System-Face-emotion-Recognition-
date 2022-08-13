@@ -13,10 +13,10 @@ from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, RTCConfigura
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
 # Load model.
-classifier = load_model('B:\DS1\envs\CNN\P5CNN\model.h5')
+classifier = load_model('model.h5')
 
 # load weights into new model
-classifier.load_weights("B:\DS1\envs\CNN\P5CNN\model_weights.h5")
+classifier.load_weights("model_weights.h5")
 
 # Load face using OpenCV
 try:
