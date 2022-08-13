@@ -25,7 +25,7 @@ except Exception:
     st.write("Error loading cascade classifiers")
 
 class VideoTransformer(VideoTransformerBase):
-    def transform(self, frame):
+    def transform(frame):
         img = frame.to_ndarray(format="bgr24")
 
         #image gray
